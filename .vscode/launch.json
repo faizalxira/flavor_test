@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "flavor_test",
+            "name": "flavor_test (dev)",
             "request": "launch",
             "type": "dart",
             "args": [
@@ -13,5 +13,14 @@
                 "dev"
             ]
         },
+        {
+            "name": "flavor_test (prod)",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor",
+                "prod"
+            ]
+        }
     ]
 }
